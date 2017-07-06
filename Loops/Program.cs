@@ -114,6 +114,13 @@ namespace Loops
             //    Console.WriteLine(musician);
             //}
 
+            Console.WriteLine("What is your first name?");
+            string firsName = Console.ReadLine();
+            while(firsName.ToUpper() == "JESSICA")
+            {
+                Console.WriteLine("Dude, you are amazing.");
+                break; // takes you out of the loop
+            }
 
 
         }
