@@ -156,16 +156,60 @@ namespace Loops
             // Ask the user if they have another class that they would like to add to their GPA calculation.
             // Using a Do-While loop, repeat the code if the user says "YES."
 
-            //string addClass;
-            //do
+            //string answer;
+            //string classes;
+            //string grade;
+            //Console.WriteLine("Do you want to add a class?");
+            //answer = Console.ReadLine().ToLower();
+            //if (answer == "yes")
             //{
-            //    Console.WriteLine("Would you like to enter another class into your GPA calculation?");
-            //    addClass = Console.ReadLine();
-
-            //    Console.WriteLine("Enter the letter grade for the class. Do not use + or -.");
-            //    string letterGrade = Console.ReadLine();
+            //    do
+            //    {
+            //        Console.WriteLine("What class would you like to add?");
+            //        classes = Console.ReadLine();
+            //        Console.WriteLine("Enter the letter grade for the class.");
+            //        grade = Console.ReadLine();
+            //        Console.WriteLine("Do you want to enter another class?");
+            //        answer = Console.ReadLine().ToLower();
+            //    }
+            //    while (answer == "yes");
             //}
-            //while (addClass == "YES");
+
+
+            // Nested Loop - a loop inside of another loop; the inner loop is executed more times than the outer loop
+            // Real life example is a clock
+
+            // Create a nested loop struction that prints:
+            // 1234
+            // 1234
+
+            //for(int rows = 1; rows <= 2; rows++) // specifying only two rows
+            //{
+            //    for(int columns = 1; columns <= 4; columns++) // showing what to write in each row, then move up; more columns than rows, so make it the inner loop
+            //    {
+            //        Console.Write(columns);
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            // Print a Triangle
+            // Outer loop will go line by line
+            // The inner loop will go over different elements in the line.
+            // Result:
+            // 1
+            // 1 2
+            // 1 2 3
+            // 1 2 3 4
+
+            //for (int rows = 1; rows <= 4; rows++)
+            //{
+            //    for (int columns = 1; columns <= rows; columns++)
+            //    {
+            //        Console.Write(columns + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+
 
 
         }
