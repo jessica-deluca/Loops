@@ -61,22 +61,59 @@ namespace Loops
             //    Console.WriteLine(storyWords[i]);
             //}
 
+            //// another way to do the problem above:
+            //string story = "Once upon a time";
+            //string[] storyWords = story.Split();
+
+            //for (int i = storyWords.Length - 1; i >= 0; i--)
+            //{
+            //    Console.WriteLine(storyWords[i]);
+            //}
+
             //// Add the product (multiplication) of 1 through 10 (including 10) using a For Loop (1*2 = result * 3); print the product to the screen
 
             //int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
             //int product = numbers[0];
             //for (int i = 0; i < numbers.Length; i++)
             //{
-            //    product = product * numbers[1];
+            //    product = product * numbers[i];
             //}
             //Console.WriteLine(product);
 
             //int product = 1;
-            //for(int i = 1; i <=10; i++)
+            //for (int i = 1; i <= 10; i++)
             //{
             //    product = product * i;
             //}
             //Console.WriteLine(product);
+
+            // Foreach loop - used to iterate over a collection (ex. list or array)
+            // You can think of the structure of a foreach loop as the statement;
+            // For each item in the collection, do something
+
+            // foreach(dataType variable in a collection)
+            // { 
+            //      do something
+            // }
+
+            //string[] firstMonths = { "Jan", "Feb", "Mar", "April", "May", "Jun" };
+            //always start with the key word: foreach
+            // foreach loops allow the temporary variable to "know" to assign itself to each element in the collection (like an array), one at a time
+            // foreach runs beginning to end; for loop you give it a stopping point
+            // foreach (string month in firstMonths)
+            //    {
+            //        Console.WriteLine(month);
+            //    }
+
+            // Create an array of 6 musicians (bands or solo artists)
+            // Using a foreach loop, print each musician's name
+
+            //string[] musicians = { "Carrie Underwood", "Kenny Chesney", "Daruis Rucker", "Tim McGraw", "Brooks & Dunn", "Rascal Flatts" };
+            //foreach(string musician in musicians)
+            //{
+            //    Console.WriteLine(musician);
+            //}
+
 
 
         }
