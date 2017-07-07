@@ -238,14 +238,14 @@ namespace Loops
             //    }
             //}
 
-            // Write a program that prints a multiplication table (5 x 5, for example) using a nested loops.
+            //Write a program that prints a multiplication table (5 x 5, for example) using a nested loops.
             // 5 rows, 5 columns
             // 1 2 3 4 5
             // 2 4 6 8 10
-            // 3 6 9 12 15 
+            // 3 6 9 12 15
             // 4 8 12 16 20
             // 5 10 15 20 25
-            // insert break point (click at start line in grey) > select start > step into
+            // insert break point(click at start line in grey) > select start > step into
 
             //int multNum = 1;
 
@@ -255,7 +255,7 @@ namespace Loops
             //    {
             //        Console.Write(multNum * j + " ");
             //    }
-            //    multNum += 1;
+            //    multNum += 1; // adds a number; so += 1, adds 1; if it was += 2, it would add 2; ++ only adds 1
             //    Console.WriteLine();
             //}
 
@@ -309,8 +309,27 @@ namespace Loops
             //}
             //Console.WriteLine("You won!"); // if input is divisible by 3
 
+            // Write a console application that asks the user for a word or phrase
+            // Print the number of each vowel in that word to the console. (8 e's...) ; find number of vowels in a word
+            // single out each character in word/phrase
+            // if character is aeiou, count it
 
+            // Console.WriteLine("Please enter a word or phrase.");
+            // string userWord = Console.ReadLine();
 
+            //// creating a random object; Next works for numbers
+            //Random randomNumber = new Random(); // new is keyword that is creating a new object; Random is data type; randomNumber is variable name
+            ////int randy = randomNumber.Next(0, 2); // randomNumber.Next(0, 2) returns number between between 0 and 4; minimum is included, maximum is not
+            ////Console.WriteLine(randy);
+            ////Console.WriteLine(randy); // saves the random number generated first time & prints it again because it is saved as an int variable; if console is closed, it could generate a different number
+            ////Console.WriteLine(randomNumber.Next(0, 9)); // asks for a random number but does not save it as an int
+
+            //string[] words = { "Paper", "Rock", "Scissors" };
+            //int[] numbers = { 1, 2, 3, 76, 6 };
+            //string sayings = "You can never have too much cake";
+            //Console.WriteLine(words[randomNumber.Next(0,3)]); // computer randomly picks rock, paper, scissors
+            //Console.WriteLine(numbers[randomNumber.Next(0, 5)]); // computer randomly picks number
+            //Console.WriteLine(sayings[randomNumber.Next(0, sayings.Length)]); // computer randomly picks index
 
         }
     }
