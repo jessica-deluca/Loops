@@ -238,7 +238,40 @@ namespace Loops
             //    }
             //}
 
+            // Write a program that prints a multiplication table (5 x 5, for example) using a nested loops.
+            // 5 rows, 5 columns
+            // 1 2 3 4 5
+            // 2 4 6 8 10
+            // 3 6 9 12 15 
+            // 4 8 12 16 20
+            // 5 10 15 20 25
+            // insert break point (click at start line in grey) > select start > step into
 
+            //int multNum = 1;
+
+            //for(int i = 1; i <= 5; i++) // determines columns
+            //{
+            //    for(int j = 1; j <= 5; j++) // determines rows
+            //    {
+            //        Console.Write(multNum * j + " ");
+            //    }
+            //    multNum += 1;
+            //    Console.WriteLine();
+            //}    
+
+            // Create an array of your favorite movies.
+            // Print out each movie in the list, unless the move starts with a vowel.
+            // Hint: Research.startsWith()
+
+
+
+
+
+
+            // Write a console application that asks the user for an integer.
+            // If that integer is evenly divisible by 3, then write “You Won!”
+            // If it isn’t, write “You Lost.”
+            // Keep asking them for a number (looping)until they win.
 
         }
     }
