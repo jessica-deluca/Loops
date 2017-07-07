@@ -292,13 +292,25 @@ namespace Loops
             //    }
             //}
 
-
-
-
             // Write a console application that asks the user for an integer.
-            // If that integer is evenly divisible by 3, then write “You Won!”
-            // If it isn’t, write “You Lost.”
-            // Keep asking them for a number (looping)until they win.
+            // If that integer is evenly divisible by 3, then write “You Won!” // use mod operater; check if input % 3 == 0
+            // If it isn’t, write “You Lost.” // need conditional; if input % 3 == 0 we need to write "you won!" & exit; if input % 3 == 0 we have to let them know they lost
+            // Keep asking them for a number (looping)until they win. // keep asking if until they win
+            // can use do or do while loop for this
+
+            //Console.WriteLine("Please enter an integer (whole number).");
+            //int userNum = int.Parse(Console.ReadLine());
+
+            //while (userNum % 3 != 0) // if input is not divisible by 3
+            //{
+            //    Console.WriteLine("You lost!"); // tell user he lost...
+            //    Console.WriteLine("Please enter another number"); // ...and ask him for another number
+            //    userNum = int.Parse(Console.ReadLine());
+            //}
+            //Console.WriteLine("You won!"); // if input is divisible by 3
+
+
+
 
         }
     }
